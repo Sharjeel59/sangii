@@ -1,0 +1,300 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    background:linear-gradient(#023047, #124559, #22223b, #14213d, #03045e)
+}
+nav{
+    display: flex;
+    align-items: center;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-around;
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(#003049, #003566);
+}
+
+.home{
+    color: white;
+    transition: 1s ease-out;
+    padding: 5px 5px;
+    font-size: 20px;
+}
+.home:hover{
+    border: 3px solid white;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.911);
+    color: rgba(236, 3, 3, 0.863);
+    transform: scale(.9),translate(-19deg);
+    border-radius: 40%;
+}
+nav ul{
+    list-style-type: none;
+    align-items:center ;
+    justify-content: center;
+    display: flex;
+    font-size: 15px;
+    gap: 30px;
+}
+
+nav ul a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.726);
+    padding: 10px 10px;
+    transition: 1s linear;
+}
+nav ul a:hover{
+    border: 2px solid white;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.911);
+    color: rgba(236, 3, 3, 0.863);
+    transform: scale(.9),translate(-19deg);
+    border-radius: 40%;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+    margin-top: 100px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    transform: translatey(-110px);
+}
+#para{
+    transform: translatey(-50%);
+    margin-top: 60px;
+}
+#para p{ 
+    font-size: 40px;
+    color: white;
+    margin-top: 10px;
+}
+#para h5{
+    color: rgba(0, 0, 0, 0.747);
+    margin-top: 10px;
+}
+#para button{
+    all: unset;
+    width: 110px;
+    background-color:rgb(226, 75, 100);
+    color: white;
+    padding: 11px 11px 11px 11px;
+    font-size:14px ;
+    text-align: center;
+margin-top: 10px;
+}
+#para button:hover{
+    border: 2px solid white;
+}
+#para button:focus{
+    color: #023047
+}
+#contaner{
+  display: flex;
+  transform: rotate(90deg);
+  gap: 40px;
+  position: relative;
+  left: 325px;
+
+ }
+.box1{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+.box2{
+    background: linear-gradient(#ff595e,#e63946);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+.box3{
+   
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+.box4::after{
+content: '';
+width: 102px;
+height: 2px;
+display: block;
+position: absolute;
+background: rgba(245, 245, 245, 0.432);
+right: 125px;
+transform: rotate(90deg);
+
+}
+.sec{
+    margin-left: 140px;
+}
+.sec h4{
+    color: white;
+    font-size: 20px;
+}
+.sec h1{
+    color: rgb(236, 3, 22);
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.sec h1:after{
+    content: '';
+    width: 90px;
+    height: 4px;
+    background-color: rgb(236, 3, 22);;
+    display: block;
+    position: absolute;
+    bottom: -20px;
+    
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    gap: 26px;
+    width: 900px;
+    height: 600px;
+    margin-left: 100px;
+}
+.card{
+    width: 30%;
+    flex-direction: column;
+    background:#12455962;
+    height: 240px;
+}
+.card h1{
+    margin-left: 10px;
+    font-size: 20px;
+
+}
+.card p{
+    margin-left: 10px;
+    text-align: justify;
+}
+.card img{
+    background-position: center;
+    background-size: cover;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    aspect-ratio: 3/2;
+    margin-top: 10px;
+    margin-left: 12px;
+}
+
+#hey{
+    display: flex;
+    transform: rotate(90deg);
+    gap: 40px;
+    position: relative;
+    left: 190px;
+    bottom: 140px;
+   }
+  .boxa{
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      border: 1px solid white;
+  }
+  .boxs{
+      background: linear-gradient(#ff595e,#e63946);
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      border: 1px solid white;
+  }
+  .boxd{
+     
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      border: 1px solid white;
+  }
+  
+  .boxf::after{
+  content: '';
+  width: 102px;
+  height: 2px;
+  display: block;
+  position: absolute;
+  background: rgba(245, 245, 245, 0.432);
+  right: 261px;
+  transform: rotate(90deg);
+  bottom: -320px;
+  }
+  .ho{
+  margin-left: 110px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; 
+  }
+  .foot{
+    margin-top: 100px;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .foot h1{
+    color: #e63946;
+    font-size: 30px;
+    margin-bottom: 14px;
+
+  }
+.foot input{
+    all: unset;
+    background-color: #1245597c;
+    padding: 12px 12px 12px 12px;
+    width: 300px;
+} 
+.foot ::placeholder{
+    color: black;
+    font-size: 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+
+.yop{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.yop input{
+    all: unset;
+    background-color: #1245597c;
+    padding: 12px 12px 12px 12px;
+    width: 300px;
+}
+.foot::placeholder{
+    color: black;
+    font-size: 10px;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+.yop button{
+    all: unset;
+    background-color: #e63946;
+    padding: 10px 10px 10px 10px ;
+    color: black;
+    font-size: 17;
+    text-align: center;
+    margin-top: 10px ;
+    margin-bottom: 60px;
+    width: 150px;
+    transform: translateX(156px);
+    cursor: pointer;
+}
